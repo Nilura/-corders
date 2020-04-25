@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+FORM
+</title>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"></script>
+<link rel="stylesheet" href="style.css"/>
+<script src="form.js"></script>
+</head>
+<body>
+<h1>Login</h1>
+<div id="formcontainer">
+<div id="header"></div>
+<input type="email" placeholder="email" id="email"/><br>
+<input type="password" placeholder="password" id="password"/><br>
+<button onclick="signUp()" id="signUp">Sign Up</button>
+<button onclick="signIn()" id="signIn">Sign in</button>
+<button onclick="signOut()" id=signOut>Sign out</button>
+
+</div>
+</body>
+</html>
